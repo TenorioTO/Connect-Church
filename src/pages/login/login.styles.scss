@@ -1,0 +1,55 @@
+.container-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+
+    .sign-in{
+        background-color: white;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+        h2{
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            background-color: #4E3473;
+            color: white;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            padding: 2rem 0;
+        }
+
+        .form-signin{
+            padding: 0 4rem;
+        }
+
+        .buttons{
+            display: flex;
+            padding: 1.5rem 0;
+
+
+            .sign-in-button{
+                padding: 10px 15px;
+                border-radius: 40px;
+                border: 1px solid rgb(242, 86, 29);
+                background-color: rgba(242, 86, 29, 1);
+                font-size: 14px;
+                font-weight: 500;
+                color: white;
+                transition: all ease 0.3s 0s;
+
+                &:hover{
+                    background-color: white;
+                    border: 1px solid rgb(242, 86, 29);
+                    color: black;
+                }
+            }
+
+            
+
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.footer{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #4E3473;
+
+    .footer-contacts{
+        width: 1fr;
+        height: 100%;
+
+        .footer-title{
+            padding: 1rem 0 ;
+        }
+
+
+
+        .icon-footer-list{
+            display: flex;
+            justify-content: space-between;
+            font-size: 30px;
+        }
+
+        .links-footer{
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 0 ;
+
+            a{
+                color: white;
+            }
+        }
+    }
+
+    .footer-email{
+        width: 1fr;
+        height: 100%;
+
+        .links-footer{
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 0 ;
+
+            a{
+                color: white;
+            }
+        }
+    }
+
+
+    .footer-tithes{
+        width: 1fr;
+        height: 100%;
+
+        .footer-title{
+            padding: 1rem;
+        }
+
+        .icon-footer-list{
+            display: flex;
+            justify-content: space-between;
+            font-size: 30px;
+        }
+
+    }
+
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+
+        a{
+            color: white;
+            margin: 5px 0;
+        }
+    }
+
+    @media screen and (max-width: 600px){
+        .footer-contacts{
+            width: 100%;
+            text-align: center;
+            padding: 0 1rem;
+        }
+        
+        .footer-email{
+            display: none;
+        }
+
+        .footer-tithes{
+            display: none;
+        }
+
+        .footer-menu{
+            display: none;
+        }
+    }
+}
