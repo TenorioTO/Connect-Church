@@ -1,5 +1,6 @@
 import React from 'react';
 
+import hello from '../../assets/img/hello.jpeg';
 
 import './us.styles.scss';
 
@@ -10,10 +11,13 @@ const UsPage = () => (
             <hr />
         </div>
         <div className="about-text">
+            <img src={hello} alt="connect"/>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magni dolorum, modi libero dolorem optio saepe placeat mollitia 
-                impedit aperiam quo expedita provident sit in ipsam quae ad quia odit voluptatum.
+                We are a joyful multicultural community. 
+                Life can be amazing, and that is not because we won’t have problems or struggles, 
+                but because we can have friendship with the prince of peace – JESUS.
+                We meet in two places, but we are one church. We have one service totally in English, 
+                and one in the Portuguese language and more are on the way.
             </p>
         </div>
 

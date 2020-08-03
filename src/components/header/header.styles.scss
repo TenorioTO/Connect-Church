@@ -8,6 +8,8 @@ header {
     padding: 20px;
     align-items: center;
 
+    font-family: 'Montserrat', sans-serif;
+
     .logo {
         width: 150px;
     }
@@ -64,12 +66,12 @@ header {
 
         .button-mobile{
             display: block;
-            order: 6;
-            position: absolute;
-            z-index: 1;
-            margin: 0;
-            top: 89vh;
-            right: 20px;
+            // order: 6;
+            // position: absolute;
+            // z-index: 1;
+            // margin: 0;
+            // top: 89vh;
+            // right: 20px;
         }
 
         .toggle-btn{

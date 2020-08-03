@@ -1,0 +1,88 @@
+
+.icons-container{
+    margin: 0;
+    display: grid;
+
+    .icon_bbb{
+        background-color: white;
+        height: 423px;
+
+
+        &#icon_1{
+            background-image: url('../../assets/img/site3.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &#icon_2{
+            background-image: url('../../assets/img/site2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &#icon_3{
+            background-image: url('../../assets/img/site.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .icon_layer{
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 0;
+            width: 100%;
+            height: 423px;
+            -webkit-transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -ms-transition: opacity 1s ease-in-out;
+            -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+
+            &:hover{
+                background-color: rgba(0, 0, 0, .7);
+                opacity: 1;
+                color: white;
+            }
+
+            .icon_text{
+                border: 1px solid white;
+                height: 423px;
+                font-family: 'Montserrat', sans-serif;
+
+                h2{
+                    text-align: center;
+                    margin: 15% 0 2rem 0;
+                }
+
+                p{
+                    text-align: center;
+                    margin: 0 10%;
+                    font-size: 1.5rem;
+                    font-size: 20px;
+                }
+
+                @media (max-width: 600px){
+                    h2{
+                        margin-top: 10%;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+
+    
+}
+
+@media (min-width: 600px){
+    .icons-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 600px){
+    .icons-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

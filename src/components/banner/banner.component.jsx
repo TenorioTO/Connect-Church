@@ -1,17 +1,25 @@
 import React from 'react';
 
-import './banner.styles.scss';
-
+import './banner.style.scss';
 
 const Banner = () => (
-    <div className='banner-container'>
-        {/* <img src='https://images.unsplash.com/photo-1507692049790-de58290a4334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80' 
-            alt='banner' /> */}
-        <div className='text-box'>
-            <h2>Title</h2>
-            <p>
-                Some Message maybe something that I don't know.
-            </p>
+    <div className="banner-container">
+        <div className="banner-text">
+            <div class="container">
+                <div class="box">
+
+                    <div class="title">
+                        <span class="block"></span>
+                        <h1>Welcom Home<span></span></h1>
+                    </div>
+
+                    <div class="role">
+                        <div class="block"></div>
+                        <p>Belong, Believe, Become.</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 );

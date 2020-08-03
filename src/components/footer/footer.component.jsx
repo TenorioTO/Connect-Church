@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom'
 
 import './footer.styles.scss';
-import { faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => (
     <div className='footer'>
@@ -13,35 +12,30 @@ const Footer = () => (
             </h4>
             
             <div className="icon-footer-list">
-                <FontAwesomeIcon icon={['fab', 'facebook-square']} />
-                <FontAwesomeIcon icon={['fab', 'instagram-square']} />
-                <FontAwesomeIcon icon={['fab', 'youtube-square']} />
+                <a href="https://www.facebook.com/connectstockport" target="_blank" >
+                    <FontAwesomeIcon icon={['fab', 'facebook-square']} />
+                </a>
+                <a href="https://www.instagram.com/connectstockport/" target="_blank">
+                    <FontAwesomeIcon icon={['fab', 'instagram-square']} />
+                </a>
+                <a href="https://www.youtube.com/channel/UCRqsB94piFQSg6M67-6P_4w" target="_blank">
+                    <FontAwesomeIcon icon={['fab', 'youtube-square']} />
+                </a>
             </div>
         </div>
 
         <div className="footer-email">
+            <span>Connect Mission: </span>
             <div className="links-footer">
-                <span>Email: </span>
-                <a href='/'>info@cntchurch.co.uk</a>
-            </div>
-        </div>
-
-        <div className="footer-tithes">
-            <h4 className='footer-title'>
-                TITHES AND OFFERINGS
-            </h4>
-            
-            <div className="icon-footer-list">
-                <FontAwesomeIcon icon={faMoneyBill} />
                 
+                <a href='https://cntmission.com/' target="_blank">www.cntmission.com</a>
             </div>
-
-        </div>
+        </div>  
 
         <div className="footer-menu">
                 <Link to='/us' className='links' >Us</Link>
-                <Link to='/news' className='links' >News</Link>
-                <Link to='/agenda' className='links' >Agenda</Link>
+                {/* <Link to='/news' className='links' >News</Link>
+                <Link to='/agenda' className='links' >Agenda</Link> */}
         </div>
 
         

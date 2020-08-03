@@ -33,16 +33,17 @@ class Header extends Component{
                 <Link to='/'>
                     <Logo className='logo' />
                 </Link>
-                <button className='toggle-btn' onClick={(e) => this.handleToggle(e)} >
+                {/* <button className='toggle-btn' onClick={(e) => this.handleToggle(e)} >
                     Menu
-                </button>
+                </button> */}
                 <nav className={this.state.isToggleOn ? 'toggle' : ''}>
-                    <Link to='/us' className='links' >Us</Link>
-                    <Link to='/news' className='links' >News</Link>
-                    <Link to='/agenda' className='links' >Agenda</Link>
+                    {/* <Link to='/us' className='links' >Us</Link> */}
+                    {/* <Link to='/news' className='links' >News</Link>
+                    <Link to='/agenda' className='links' >Agenda</Link> */}
                 </nav>
-                <Link to='/login' className={`button ${this.state.isToggleOn ? 'button-mobile' : ''}`} >Login</Link>
-                <Link 
+                <Link to="/login" className="button button-mobile">Login</Link>
+                {/* <Link to='/login' className={`button ${this.state.isToggleOn ? 'button-mobile' : ''}`} >Login</Link> */}
+                {/* <Link 
                     to='/'
                     className={`face-icon-link ${this.state.isToggleOn ? 'face-toggle' : ''}`}>
                         <FontAwesomeIcon icon={['fab', 'facebook-square']} 
@@ -53,7 +54,7 @@ class Header extends Component{
                     className={`insta-icon-link ${this.state.isToggleOn ? 'insta-toggle': ''}`}>
                         <FontAwesomeIcon icon={['fab', 'instagram-square']}
                         className='insta-icon' />
-                </Link>
+                </Link> */}
             </header>
     
         )
